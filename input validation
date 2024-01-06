@@ -1,0 +1,9 @@
+LDAP Injection 
+
+Google Dork
+intitle:"phpLDAPadmin" inurl:cmd.php
+
+Login Bypass
+user=*
+password=*
+--> (&(user=*)(password=*))
