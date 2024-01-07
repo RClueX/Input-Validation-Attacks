@@ -47,6 +47,7 @@ Lab : https://bwapp.hakhub.net/commandi.php
 # HTTP Splitting Smuggling
 Lab : https://portswigger.net/web-security/request-smuggling/finding/lab-confirming-cl-te-via-differential-responses
 Payload : 
+Content-Length: 35
 Transfer-Encoding: chunked
 
 0
