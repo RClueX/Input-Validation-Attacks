@@ -14,10 +14,10 @@ Lab : http://challenge01.root-me.org/web-serveur/ch8/
 
 # LDAP Injection
 
-Google Dork
+Google Dork - 
 intitle:"phpLDAPadmin" inurl:cmd.php
 
-Login Bypass
+Login Bypass - 
 user=*
 password=*
 --> (&(user=*)(password=*))
