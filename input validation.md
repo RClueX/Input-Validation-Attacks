@@ -57,3 +57,11 @@ X-Ignore: X
 
 # Host Header Injection
 Lab : https://portswigger.net/web-security/host-header/exploiting/password-reset-poisoning/lab-host-header-basic-password-reset-poisoning
+
+# Server-side Template Injection
+Lab : https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic
+Payload : <%= 7*7 %> 
+
+# Server-Side Request Forgery
+Lab : https://portswigger.net/web-security/ssrf/lab-basic-ssrf-against-localhost
+Payload : http://localhost/admin
