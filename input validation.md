@@ -1,5 +1,11 @@
 # Cross Site Scripting (Reflected & Stored)
 Lab : http://testphp.vulnweb.com/index.php
+Defacement : 
+<style>
+div {
+ background-image: url('http://www.deepeddy.net/img/deepeddyfish.gif');
+}
+</style>
 
 # HTTP Verb Tampering
 Lab : http://challenge01.root-me.org/web-serveur/ch8/
