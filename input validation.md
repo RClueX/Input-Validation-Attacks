@@ -54,3 +54,6 @@ Transfer-Encoding: chunked
 
 GET /404 HTTP/1.1
 X-Ignore: X
+
+# Host Header Injection
+Lab : https://portswigger.net/web-security/host-header/exploiting/password-reset-poisoning/lab-host-header-basic-password-reset-poisoning
