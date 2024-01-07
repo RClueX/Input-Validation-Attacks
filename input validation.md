@@ -1,4 +1,4 @@
-# Cross Site Scripting (Reflected & Stored) 
+# Cross Site Scripting (Reflected & Stored)
 Lab : http://testphp.vulnweb.com/index.php
 
 # HTTP Parameter Pollution
@@ -12,7 +12,7 @@ Payload : admin' or '1'='1'--
 # HTTP Verb Tampering
 Lab : http://challenge01.root-me.org/web-serveur/ch8/
 
-#LDAP Injection
+# LDAP Injection
 
 Google Dork
 intitle:"phpLDAPadmin" inurl:cmd.php
