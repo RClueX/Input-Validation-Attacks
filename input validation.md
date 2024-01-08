@@ -73,3 +73,7 @@ Payload : <%= 7*7 %>
 # Server-Side Request Forgery
 Lab : https://portswigger.net/web-security/ssrf/lab-basic-ssrf-against-localhost
 Payload : http://localhost/admin
+
+# IMAP SMTP Injection
+
+# HTTP Incoming Request
