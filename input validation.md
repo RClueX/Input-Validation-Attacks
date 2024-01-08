@@ -7,9 +7,6 @@ div {
 }
 </style>
 
-# HTTP Verb Tampering
-Lab : http://challenge01.root-me.org/web-serveur/ch8/
-
 # HTTP Parameter Pollution
 Lab : https://bwapp.hakhub.net/hpp-1.php
 Payload : &movie=2
